@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/firstname_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Firstname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastname_input"
+        android:hint="Lastname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hight_input"
+        android:hint="Hight"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight_input"
+        android:hint="Weight"/>
+
+    <EditText
+        android:id="@+id/birthday_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birthday" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blood_input"
+        android:hint="Blood"/>
+
+    <EditText
+        android:id="@+id/allergic_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Allergic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_input"
+        android:hint="Address"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/telephone_input"
+        android:hint="Telephone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_input"
+        android:hint="Email"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add patient"
+        android:id="@+id/button_add"
+        android:onClick="btn_click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update patient"
+        android:id="@+id/button_update"
+        android:onClick="btn_click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:text="Delete Patient"
+        android:onClick="btn_click" />
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:text="Update List Patient"
+        android:onClick="btn_click" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second"
+        android:text="List Patient"
+        android:onClick="btn_click" />
+
+
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_click"
+        android:text="" />
+
+</LinearLayout>
+    </TableLayout>
+</ScrollView>
